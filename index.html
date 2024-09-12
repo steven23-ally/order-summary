@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Order summary card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      .red-hat-display-normal {
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:500 ;
+  font-style: normal;
+}
+.red-hat-display-bold {
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.red-hat-display-big {
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="flex flex-col bg-blue-200 justify-center items-center">
+    <main
+      class="flex flex-col bg-white justify-center items-center gap-[1rem] w-[25rem] rounded-2xl h-full pb-6"
+    >
+      <img class="rounded-t-xl" src="images/illustration-hero.svg" alt="" />
+      <h1 class="red-hat-display-big text-xl">Order Summary</h1>
+
+      <p class="text-lg text-center red-hat-display-bold">
+        You can now listen to millions of songs, audiobooks, and podcasts on any
+        device anywhere you like!
+      </p>
+      <div class="flex gap-[3rem] py-[1rem] px-[1rem] bg-gray-200 rounded-lg">
+        <img src="images/icon-music.svg" alt="dance" />
+        <div class="flex flex-col rounded-lg ">
+          <h2 class="red-hat-display-big">Annual Plan</h2>
+          <p>$59.99/year</p>
+        </div>
+
+        <p class="underline text-blue-900 self-center">Change</p>
+      </div>
+      <div
+        class="py-[2rem] px-[5rem] bg-blue-900 red-hat-display-bold text-white w-[20rem] h-[1rem] rounded-lg flex items-center"
+      >
+        Proceed to Payment
+      </div>
+      <p class="flex items-center justify-center self-center red-hat-display-bold text-gray-600 text-xl">Cancel Order</p>
+    </main>
+    <div class="attribution mt-10">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">peter steven</a>.
+    </div>
+  </body>
+</html>
